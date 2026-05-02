@@ -21,6 +21,57 @@ The integration tracks the following vehicle data:
 - Interior temperature
 - Exterior temperature
 
+## Leapmotor B10 Support
+
+A B10-specific macro (`Leapmotor_to_HomeAssistant_B10.macro`) and sensor configuration (`sensor_b10.yaml`) are available with extended functionality.
+
+### Additional Data Points
+
+Compared to the C10 integration, the B10 macro additionally tracks:
+
+* Odometer (total km driven)
+* Charge limit (%)
+* Charge current (A)
+* Charge power (kW)
+* Charge remaining time
+* Charge status (A = not connected, B = connected/not charging, C = charging)
+
+### Charge Status Logic
+
+The B10 macro distinguishes three charging states and sends them to a separate sensor (`sensor.leapmotor_b10_charge_status`):
+
+* **A** – Not connected
+* **B** – Connected, not charging
+* **C** – Actively charging (charge current, power and remaining time are read from the app)
+
+Charge limit is always read and transmitted regardless of charge status.
+
+The A/B/C status is designed to be compatible with [evcc](https://evcc.io/) for smart charging control.
+
+> **Note:** Charge remaining time (`charge_remaining`) is not yet fully implemented — it is transmitted as `0` for status A and B. Live readout during active charging (status C) is pending real-world testing.
+
+### Trigger & Update Frequency
+
+The B10 macro runs on two triggers:
+
+* Screen turns off
+* Every 5 minutes (regular interval)
+
+The minimum interval between runs is ~5 minutes (constraint: 285 seconds).
+
+### Setup
+
+Follow the same installation steps as for the C10, with these differences:
+
+* Import `Leapmotor_to_HomeAssistant_B10.macro` instead
+* Configure the local variables as described in Step 2.2:
+  * **`ha_url`** (Secure): Your Home Assistant URL
+  * **`ha_token`** (Secure): Your Long-Lived Access Token
+  * **`ha_sensor_name`**: Set to `leapmotor_b10_1`
+* Add the contents of `sensor_b10.yaml` to your template sensor configuration
+* The main sensor will be `sensor.leapmotor_b10_1`
+* The charge status sensor will be `sensor.leapmotor_b10_charge_status`
+
 ## Prerequisites
 
 ### Required Software

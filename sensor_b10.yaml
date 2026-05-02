@@ -1,0 +1,85 @@
+- sensor:
+    - name: "Leapmotor B10 Battery"
+      unique_id: leapmotor_b10_1_battery
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'battery_percent') }}"
+      unit_of_measurement: "%"
+      device_class: battery
+
+    - name: "Leapmotor B10 Range"
+      unique_id: leapmotor_b10_1_range
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'remaining_range') }}"
+      unit_of_measurement: "km"
+      icon: mdi:map-marker-distance
+
+    - name: "Leapmotor B10 Car Temperature"
+      unique_id: leapmotor_b10_1_car_temp
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'car_temp') }}"
+      unit_of_measurement: "°C"
+      device_class: temperature
+
+    - name: "Leapmotor B10 Air Temperature"
+      unique_id: leapmotor_b10_1_air_temp
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'air_temp') }}"
+      unit_of_measurement: "°C"
+      device_class: temperature
+
+    - name: "Leapmotor B10 Lock State"
+      unique_id: leapmotor_b10_1_lock_state
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'lock_state') }}"
+      icon: mdi:car-door-lock
+
+    - name: "Leapmotor B10 Charge Status"
+      unique_id: leapmotor_b10_1_charge_status
+      state: "{{ states('sensor.leapmotor_b10_charge_status') }}"
+      icon: mdi:ev-plug-type2
+
+    - name: "Leapmotor B10 Charge Power"
+      unique_id: leapmotor_b10_1_charge_power
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'charge_power_kw') }}"
+      unit_of_measurement: "kW"
+      device_class: power
+
+    - name: "Leapmotor B10 Charge Current"
+      unique_id: leapmotor_b10_1_charge_current
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'charge_current_a') }}"
+      unit_of_measurement: "A"
+      device_class: current
+
+    - name: "Leapmotor B10 Charge Limit"
+      unique_id: leapmotor_b10_1_charge_limit
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'charge_limit_percent') }}"
+      unit_of_measurement: "%"
+      icon: mdi:battery-charging-high
+  
+    - name: "Leapmotor B10 Odometer"
+      unique_id: leapmotor_b10_1_odometer
+      state: "{{ state_attr('sensor.leapmotor_b10_1', 'odometer') }}"
+      unit_of_measurement: "km"
+      icon: mdi:counter
+
+    - name: "Leapmotor B10 Charge Remaining"
+      unique_id: leapmotor_b10_1_charge_remaining
+      state: >
+        {% set s = state_attr('sensor.leapmotor_b10_1', 'charge_remaining') %}
+        {% if s and 'h' in s %}
+          {% set h = s | regex_findall('(\d+)h') | first | int(0) %}
+          {% set m = s | regex_findall('(\d+)min') | first | int(0) %}
+          {{ h * 60 + m }}
+        {% elif s and 'min' in s %}
+          {{ s | regex_findall('(\d+)min') | first | int(0) }}
+        {% else %}
+          0
+        {% endif %}
+      unit_of_measurement: "min"
+      icon: mdi:timer-outline
+
+    - name: "Leapmotor B10 Charge Complete At"
+      unique_id: leapmotor_b10_1_charge_complete_at
+      state: >
+        {% set mins = states('sensor.leapmotor_b10_charge_remaining') | int(0) %}
+        {% if mins > 0 %}
+          {{ (now() + timedelta(minutes=mins)).isoformat() }}
+        {% else %}
+          unknown
+        {% endif %}
+      icon: mdi:clock-end

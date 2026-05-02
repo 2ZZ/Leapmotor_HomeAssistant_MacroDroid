@@ -1,0 +1,2492 @@
+{
+  "globalVariables": [],
+  "macro": {
+    "breakpoints": [],
+    "disabledTimestamp": 0,
+    "exportedActionBlocks": [],
+    "forceEvenIfNotEnabledTimestamp": 0,
+    "isActionBlock": false,
+    "isExtra": false,
+    "isFavourite": false,
+    "lastEditedTimestamp": 1776259421670,
+    "localVariables": [
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "current_app",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "description": "",
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": true,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "ha_token",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "ha_http_response",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "description": "",
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": true,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "ha_url",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "ha_request_body",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "ha_sensor_name",
+        "m_stringValue": "leapmotor_b10_1",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [
+            {
+              "key": "com.arlosoft.macrodroid:id/exportdialog_filename",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "MacroDroid_26_04_23_05_28",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 315,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 767,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 72,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 722,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 558,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 813,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(72, 722) - (558, 813)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/fileExtension",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": ".mdr",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 603,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 772,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 566,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 748,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 640,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 797,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(566, 748) - (640, 797)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/encrypt_output_checkbox",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Ausgabedatei verschl\u00fcsseln",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 277,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 636,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 72,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 604,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 483,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 668,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(72, 604) - (483, 668)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/cancelButton",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "ABBRECHEN",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 415,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 861,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 310,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 813,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 520,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 909,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(310, 813) - (520, 909)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/okButton",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "OK",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 600,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 861,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 520,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 813,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 680,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 909,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(520, 813) - (680, 909)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Android \"Share\"",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 360,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 519,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 32,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 474,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 688,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 564,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(32, 474) - (688, 564)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            }
+          ],
+          "isArray": false,
+          "parents": [],
+          "variableType": 4,
+          "parentKeys": [],
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "screen_contents",
+        "m_stringValue": "",
+        "m_type": 4,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tv_soc",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tvCarLockState",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tvCarState",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tvHomeAirTemp1",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tvHomeCarTemp1",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tvRemainMileage",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tvOdometer",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tv_charge_current",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tv_charge_power",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tv_charge_limit",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tv_charge_remaining",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "charge_status",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tv_charge_remaining_str",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      }
+    ],
+    "localVarsAlphabetical": true,
+    "m_GUID": -7756093140135957331,
+    "m_actionList": [
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{fg_app_package}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "current_app",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -8820944076811840686,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationName": "Leapmotor",
+        "m_excludeFromRecents": true,
+        "m_packageToLaunch": "com.leapmotorinternational.global",
+        "m_startNew": true,
+        "option": 0,
+        "disableLogging": false,
+        "m_SIGUID": -5836404855900243805,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 10,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "disableLogging": false,
+        "m_SIGUID": -7269358796148886172,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_fixedOptionCount": 20,
+        "m_option": 1,
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -5652282733776394412,
+        "m_classType": "LoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": false,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": true,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -5792112546212628513,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -5792830075558586356,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": [
+                "com.leapmotorinternational.global:id/btLpHomeData",
+                "text"
+              ]
+            },
+            "dictionaryType": 2,
+            "enableRegex": true,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": "energy",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "screen_contents",
+              "m_stringValue": "",
+              "m_type": 4,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -4852809313188097238,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -5748360067954206898,
+        "m_classType": "BreakFromLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -7140209771573257400,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 250,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "disableLogging": false,
+        "m_SIGUID": -7008904495359168390,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -4702529773919789572,
+        "m_classType": "EndLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvHomeAirTemp][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvHomeAirTemp1",
+        "disableLogging": false,
+        "m_SIGUID": -5981712766689555728,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvHomeCarTemp][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvHomeCarTemp1",
+        "disableLogging": false,
+        "m_SIGUID": -5614609514692850126,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvRemainMileage][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvRemainMileage",
+        "disableLogging": false,
+        "m_SIGUID": -8327218528094343384,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{lv=screen_contents[com.leapmotorinternational.global:id/tvCarState][text]}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "tvCarState",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -4852264938008445115,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -7934306933054469994,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 0,
+            "enableRegex": false,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": "Driving",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "tvCarState",
+              "m_stringValue": "",
+              "m_type": 2,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -5966731877373952133,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "Driving",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "tvCarLockState",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6568264470896687632,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -6024478457050972396,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{lv=screen_contents[com.leapmotorinternational.global:id/tvLockCarState][text]}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "tvCarLockState",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6125240109509739126,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -5313604061857434883,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{lv=screen_contents[com.leapmotorinternational.global:id/tvLpCarHomeCharge][text]}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "tv_charge_remaining_str",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -5022152180312161302,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 600,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "disableLogging": false,
+        "m_SIGUID": -6354540978498770725,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": true,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": true,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -5388244995882399604,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvLphomeTripData][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+",
+            "0"
+          ]
+        },
+        "variableName": "tvOdometer",
+        "disableLogging": false,
+        "m_SIGUID": -6288450170004145042,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 3,
+          "contentDescription": "",
+          "longClick": false,
+          "skipCount": "0",
+          "textContent": "",
+          "textMatchOption": 1,
+          "useRegex": false,
+          "viewId": "com.leapmotorinternational.global:id/tvRemainMileage",
+          "xyPercentages": false,
+          "xyPoint": {
+            "x": 153,
+            "y": 371
+          },
+          "type": "Click"
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6691815647162137719,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_fixedOptionCount": 20,
+        "m_option": 1,
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -8160311380667214700,
+        "m_classType": "LoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": false,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": true,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -6887301513876395323,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -5447457587457503745,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": [
+                "com.leapmotorinternational.global:id/tv_soc",
+                "text"
+              ]
+            },
+            "dictionaryType": 2,
+            "enableRegex": true,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": "[0-9]+%",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "screen_contents",
+              "m_stringValue": "",
+              "m_type": 4,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -6686570490373073167,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tv_soc][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "[0-9]+",
+            "0"
+          ]
+        },
+        "variableName": "tv_soc",
+        "disableLogging": false,
+        "m_SIGUID": -6992635264633211758,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -5871829849997180568,
+        "m_classType": "BreakFromLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -9108167336913467205,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 250,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "disableLogging": false,
+        "m_SIGUID": -8502516852308229565,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -5705446039970684874,
+        "m_classType": "EndLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": true,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": true,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -6846169100837250526,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tv_charge_limit][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "[0-9]+(?=%)",
+            "0"
+          ]
+        },
+        "variableName": "tv_charge_limit",
+        "disableLogging": false,
+        "m_SIGUID": -6363485881375587805,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -6066321282169141868,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": [
+                "com.leapmotorinternational.global:id/tv_text",
+                "text"
+              ]
+            },
+            "dictionaryType": 2,
+            "enableRegex": true,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": ".+",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "screen_contents",
+              "m_stringValue": "",
+              "m_type": 4,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -8720064430018643957,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tv_current][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+[.,]?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tv_charge_current",
+        "disableLogging": false,
+        "m_SIGUID": -5525668590309708614,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tv_power][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+[.,]?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tv_charge_power",
+        "disableLogging": false,
+        "m_SIGUID": -9159754323831241397,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -6401818392046880107,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": [
+                "com.leapmotorinternational.global:id/tv_current",
+                "text"
+              ]
+            },
+            "dictionaryType": 2,
+            "enableRegex": true,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": ".+",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "screen_contents",
+              "m_stringValue": "",
+              "m_type": 4,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -7299297201949011636,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "C",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "charge_status",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6355034441669771193,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{\n  \"state\": \"Charging\",\n  \"attributes\": {\n    \"battery_percent\": {lv=tv_soc},\n    \"charge_current_a\": \"{lv=tv_charge_current}\",\n    \"charge_power_kw\": \"{lv=tv_charge_power}\",\n    \"charge_limit_percent\": {lv=tv_charge_limit},\n    \"charge_remaining\": \"{lv=tv_charge_remaining_str}\",\n    \"air_temp\": {lv=tvHomeAirTemp1},\n    \"car_temp\": {lv=tvHomeCarTemp1},\n    \"lock_state\": \"{lv=tvCarLockState}\",\n    \"remaining_range\": {lv=tvRemainMileage},\n    \"odometer\": \"{lv=tvOdometer}\",\n    \"friendly_name\": \"Leapmotor B10\",\n    \"icon\": \"mdi:car-electric\"\n  },\n  \"force_update\": true\n}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "ha_request_body",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6654615040751255719,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -5247616960314461610,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "B",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "charge_status",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6039869709381344954,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{\n  \"state\": \"{lv=tvCarState}\",\n  \"attributes\": {\n    \"battery_percent\": {lv=tv_soc},\n    \"air_temp\": {lv=tvHomeAirTemp1},\n    \"car_temp\": {lv=tvHomeCarTemp1},\n    \"lock_state\": \"{lv=tvCarLockState}\",\n    \"remaining_range\": {lv=tvRemainMileage},\n    \"odometer\": \"{lv=tvOdometer}\",\n    \"charge_current_a\": \"0\",\n    \"charge_power_kw\": \"0\",\n    \"charge_limit_percent\": {lv=tv_charge_limit},\n    \"charge_remaining\": \"{lv=tv_charge_remaining_str}\",\n    \"friendly_name\": \"Leapmotor B10\",\n    \"icon\": \"mdi:car-electric\"\n  },\n  \"force_update\": true\n}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "ha_request_body",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -7502905659970581740,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -8887607579914836282,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -5657983324998298455,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "A",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "charge_status",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -7117066150192084535,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{\n  \"state\": \"{lv=tvCarState}\",\n  \"attributes\": {\n    \"battery_percent\": {lv=tv_soc},\n    \"air_temp\": {lv=tvHomeAirTemp1},\n    \"car_temp\": {lv=tvHomeCarTemp1},\n    \"lock_state\": \"{lv=tvCarLockState}\",\n    \"remaining_range\": {lv=tvRemainMileage},\n    \"odometer\": \"{lv=tvOdometer}\",\n    \"charge_current_a\": \"0\",\n    \"charge_power_kw\": \"0\",\n    \"charge_limit_percent\": {lv=tv_charge_limit},\n    \"charge_remaining\": \"{lv=tv_charge_remaining_str}\",\n    \"friendly_name\": \"Leapmotor B10\",\n    \"icon\": \"mdi:car-electric\"\n  },\n  \"force_update\": true\n}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "ha_request_body",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -7580202805928629753,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -7172690110179279850,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "cancelPrevious": false,
+        "m_backgroundColor": -14606047,
+        "m_displayIcon": false,
+        "m_duration": 0,
+        "m_horizontalPosition": 0,
+        "m_imageName": "launcher_no_border",
+        "m_imagePackageName": "com.arlosoft.macrodroid",
+        "m_imageResourceName": "launcher_no_border",
+        "m_messageText": "{lv=ha_request_body}",
+        "m_position": 0,
+        "m_textColor": -1,
+        "m_tintIcon": false,
+        "maintainSpaces": false,
+        "useTextOnly": true,
+        "disableLogging": false,
+        "m_SIGUID": -8078425774093825966,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": true,
+        "m_isOrCondition": false
+      },
+      {
+        "requestConfig": {
+          "allFilesAccessPath": "",
+          "allowAnyCertificate": false,
+          "basicAuthEnabled": false,
+          "basicAuthPassword": "",
+          "basicAuthUsername": "",
+          "blockNextAction": false,
+          "clientCertEnabled": false,
+          "clientCertKeyStoreDisplayName": "",
+          "clientCertKeyStoreUri": "",
+          "clientCertPassword": "",
+          "contentBodyDynamicFileName": "",
+          "contentBodyFileDisplayName": "",
+          "contentBodyFileUri": "",
+          "contentBodyFolderDisplayName": "",
+          "contentBodyFolderUri": "",
+          "contentBodySource": 0,
+          "contentBodyText": "{lv=ha_request_body}",
+          "contentType": "application/json",
+          "followRedirects": true,
+          "headerParams": [
+            {
+              "paramName": "Authorization",
+              "paramValue": "Bearer {lv=ha_token}"
+            }
+          ],
+          "localFileUri": "",
+          "prettifyJson": true,
+          "queryParams": [],
+          "requestTimeOutSeconds": 30,
+          "requestType": 1,
+          "responseVariableName": "ha_http_response",
+          "saveResponseAllFilesAccessPath": "",
+          "saveResponseFileName": "",
+          "saveResponseFolderPathDisplayName": "",
+          "saveResponseFolderPathUri": "",
+          "saveResponseType": 1,
+          "saveResponseUseAllFilesAccess": false,
+          "saveReturnCodeToVariable": false,
+          "saveReturnHeadersToVariable": false,
+          "urlToOpen": "{lv=ha_url}/api/states/sensor.{lv=ha_sensor_name}",
+          "useAllFilesAccess": false,
+          "useLocalFileUri": false,
+          "useStaticContentBodyFile": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -6886939751772189221,
+        "m_classType": "HttpRequestAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "requestConfig": {
+          "allFilesAccessPath": "",
+          "allowAnyCertificate": false,
+          "basicAuthEnabled": false,
+          "basicAuthPassword": "",
+          "basicAuthUsername": "",
+          "blockNextAction": false,
+          "clientCertEnabled": false,
+          "clientCertKeyStoreDisplayName": "",
+          "clientCertKeyStoreUri": "",
+          "clientCertPassword": "",
+          "contentBodyDynamicFileName": "",
+          "contentBodyFileDisplayName": "",
+          "contentBodyFileUri": "",
+          "contentBodyFolderDisplayName": "",
+          "contentBodyFolderUri": "",
+          "contentBodySource": 0,
+          "contentBodyText": "{\n  \"state\": \"{lv=charge_status}\",\n  \"attributes\": {\n    \"friendly_name\": \"Leapmotor B10 Ladestatus\",\n    \"icon\": \"mdi:ev-plug-type2\"\n  },\n  \"force_update\": true\n}",
+          "contentType": "application/json",
+          "followRedirects": true,
+          "headerParams": [
+            {
+              "paramName": "Authorization",
+              "paramValue": "Bearer {lv=ha_token}"
+            }
+          ],
+          "localFileUri": "",
+          "prettifyJson": true,
+          "queryParams": [],
+          "requestTimeOutSeconds": 30,
+          "requestType": 1,
+          "responseVariableName": "ha_http_response",
+          "saveResponseAllFilesAccessPath": "",
+          "saveResponseFileName": "",
+          "saveResponseFolderPathDisplayName": "",
+          "saveResponseFolderPathUri": "",
+          "saveResponseType": 1,
+          "saveResponseUseAllFilesAccess": false,
+          "saveReturnCodeToVariable": false,
+          "saveReturnHeadersToVariable": false,
+          "urlToOpen": "{lv=ha_url}/api/states/sensor.leapmotor_b10_charge_status",
+          "useAllFilesAccess": false,
+          "useLocalFileUri": false,
+          "useStaticContentBodyFile": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -9156074251278901770,
+        "m_classType": "HttpRequestAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "cancelPrevious": false,
+        "m_backgroundColor": -14606047,
+        "m_displayIcon": false,
+        "m_duration": 0,
+        "m_horizontalPosition": 0,
+        "m_imageName": "launcher_no_border",
+        "m_imagePackageName": "com.arlosoft.macrodroid",
+        "m_imageResourceName": "launcher_no_border",
+        "m_messageText": "{lv=ha_http_response}",
+        "m_position": 0,
+        "m_textColor": -1,
+        "m_tintIcon": false,
+        "maintainSpaces": false,
+        "useTextOnly": true,
+        "disableLogging": false,
+        "m_SIGUID": -7326721925585539065,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": true,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationNameList": [
+          "Leapmotor"
+        ],
+        "m_packageNameList": [
+          "com.leapmotorinternational.global"
+        ],
+        "option": 0,
+        "disableLogging": false,
+        "m_SIGUID": -7937168196456114756,
+        "m_classType": "KillBackgroundAppAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "launchByPackageName": "{lv=current_app}",
+        "m_excludeFromRecents": false,
+        "m_startNew": false,
+        "option": 1,
+        "disableLogging": false,
+        "m_SIGUID": -9195427692634849296,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_category": "Uncategorized",
+    "m_constraintList": [
+      {
+        "checkThisMacro": true,
+        "m_invoked": false,
+        "m_macroIds": [],
+        "m_macroNames": [],
+        "m_timePeriodSeconds": 285,
+        "disableLogging": false,
+        "m_SIGUID": -8552302909900963729,
+        "m_classType": "LastRunTimeConstraint",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_locked": false,
+        "disableLogging": false,
+        "m_SIGUID": -7995757414991679901,
+        "m_classType": "DeviceLockedConstraint",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_description": "Sendet Fahrzeugdaten an Home Assistant inkl. Ladestatus A/B/C.",
+    "m_descriptionOpen": false,
+    "m_enabled": true,
+    "m_excludeLog": false,
+    "m_headingColor": 0,
+    "m_isOrCondition": false,
+    "m_name": "Leapmotor to Home Assistant B10",
+    "m_triggerList": [
+      {
+        "m_screenOn": false,
+        "disableLogging": false,
+        "m_SIGUID": -4712074265133578165,
+        "m_classType": "ScreenOnOffTrigger",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_ignoreReferenceStartTime": false,
+        "m_minutes": 0,
+        "m_seconds": 300,
+        "m_startHour": 0,
+        "m_startMinute": 0,
+        "m_useAlarm": true,
+        "m_useIntervalVariable": false,
+        "m_useReferenceTimeVariable": false,
+        "disableLogging": false,
+        "m_SIGUID": -5502561424966636476,
+        "m_classType": "RegularIntervalTrigger",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ]
+  },
+  "macroExportVersion": 1
+}
